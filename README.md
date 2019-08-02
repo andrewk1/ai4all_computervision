@@ -5,36 +5,36 @@ This material borrows from Stanford's [CS231N](http://cs231n.stanford.edu/) cour
 
 ## Curriculum 
 
-The following is the section break down for lecture.
+The following is the section break down for each lecture.
 
 ### Lecture 1
 
--Linear Models for Regression and Classification
+  - Linear Models for Regression and Classification
 
--Optimization
+  - Optimization
 
--Vectors
+  - Vectors
 
--Matrices
+  - Matrices
 
--Image Representation
+  - Image Representation
 
--Image Classification
+  - Image Classification
 
--Challenges of Computer Vision
+  - Challenges of Computer Vision
 
--Neural Networks
+  - Neural Networks
 
 ### Lecture 2
 
--Recap: Image Representation
+  - Recap: Image Representation
 
--Recap: Challenges of Computer Vision
+  - Recap: Challenges of Computer Vision
 
--Recap: Neural Networks
+  - Recap: Neural Networks
 
--Invariant Local Features
+  - Invariant Local Features
 
--Classical Feature Extraction
+  - Classical Feature Extraction
 
--Deep Convolutional Neural Networks
+  - Deep Convolutional Neural Networks
