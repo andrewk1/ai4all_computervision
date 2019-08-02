@@ -1,0 +1,44 @@
+\documentclass[11pt]{beamer}
+
+%%%%%%%% tema e cor %%%%%%%%
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{albatross}
+}
+
+\input{config.tex}
+
+%%%%%%%% titulo e subtitulo %%%%%%%%
+\title[AI4ALL Computer Vision]{Image feature extraction}
+
+\subtitle{(shallow and deep)}
+
+%%%%%%%% nome dos autores %%%%%%%%
+\author[Andrew Kondrich]{Andrew Kondrich} 
+
+\begin{document}
+\input{files/pre-slides.tex}
+
+%%%%%%%% slides %%%%%%%%
+\section{Recap: Image Representation}
+\input{files/imgrep.tex}
+
+\section{Recap: Challenges of Computer Vision}
+\input{files/challenges.tex}
+
+\section{Recap: Neural Networks}
+\input{files/neuralnet.tex}
+
+\section{Invariant Local Features}
+\input{files/localfeatures.tex}
+\section{Classical Feature Extraction}
+\input{files/classic.tex}
+
+\section{Deep Convolutional Neural Networks}
+\input{files/dcnn.tex}
+
+%%%%%%%% repeat first slide %%%%%%%%
+\begin{frame}
+\titlepage 
+\end{frame}
+\end{document}

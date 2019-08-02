@@ -1,0 +1,49 @@
+\documentclass[11pt]{beamer}
+
+%%%%%%%% tema e cor %%%%%%%%
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{albatross}
+}
+
+\input{config.tex}
+
+%%%%%%%% titulo e subtitulo %%%%%%%%
+\title[AI4ALL Computer Vision]{Image Representation and Neural Networks} 
+
+%%%%%%%% nome dos autores %%%%%%%%
+\author[Andrew Kondrich]{Andrew Kondrich} 
+
+\begin{document}
+\input{files/pre-slides.tex}
+
+%%%%%%%% slides %%%%%%%%
+\section{Linear Models for Regression and Classification}
+\input{files/linearmodels.tex}
+
+\section{Optimization}
+\input{files/optimization.tex}
+
+\section{Vectors}
+\input{files/vectors.tex}
+
+\section{Matrices}
+\input{files/matrices.tex}
+
+\section{Image Representation}
+\input{files/imgrep.tex}
+
+\section{Image Classification}
+\input{files/classification.tex}
+
+\section{Challenges of Computer Vision}
+\input{files/challenges.tex}
+
+\section{Neural Networks}
+\input{files/neuralnet.tex}
+
+%%%%%%%% repeat first slide %%%%%%%%
+\begin{frame}
+\titlepage 
+\end{frame}
+\end{document}
